@@ -1,0 +1,43 @@
+body{
+text-align: center;
+background: green;
+font-family: arial;
+font-variant: normal;
+font-style: italic;
+font-size: 18px;
+}
+p{
+text-indent: 1em;
+}
+p#qwe,#pas,#lzx,#qaz{
+text-align: left;
+word-spacing: 20px;
+}
+p#rty,#dfg,#cvb,#wsx{
+text-align: center;
+letter-spacing: 10px;
+}
+#uio,#hjk,#nmq{
+text-align: right;
+line-height: 200%;
+}
+p#qwe,p#rty,#uio{
+color: silver;
+text-transform: capitalize;
+}
+#pas,#dfg,#hjk{
+color: gold;
+text-transform: uppercase;
+}
+#lzx,#cvb,#nmq{
+color: navy;
+text-transform: lowercase;
+}
+#qaz,#wsx{
+color: yellow;
+text-transform: none;
+word-spacing: 3px;
+letter-spacing: 3px;
+line-height: 80%;
+}
+

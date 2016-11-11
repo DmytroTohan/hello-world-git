@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>Форми</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+	</head>
+	<body>
+		<p align=center><font size="5" color="#0000FF">	
+				Маленьке опитування  для прихильників Ice Age</font></p>
+			<form action="">
+			
+			
+			Виробник:<br>
+			<p><input type="checkbox" name="nout1" value="Acer" checked>Acer
+			<input type="checkbox" name="nout2" value="Asus">Asus
+			<input type="checkbox" name="nout3" value="Dell">Dell
+			<input type="checkbox" name="nout4" value="Lenovo">Lenovo</p>
+			
+			Сенсорний екран:<br>
+			<p><input type="radio" name="screen" value="yes" checked>Так	
+			<input type="radio" name="screen" value="no">Ні</p>
+			
+			Процесор:<br>
+			<select name="procesor" size="1">
+			<option selected value="ic7">Intel Core i7
+			<option value="ic5">Intel Core i5
+			<option value="ic3">Intel Core i3
+			<option value="amd">AMD
+			</select><br>
+			Ціна:<br>
+			<select name="price" size="3">
+			<option selected value="1">До 5 999 грн.
+			<option value="2">Від 6 000 8 900 грн.
+			<option value="3">Від 9 000 11 999 грн.
+			<option value="4">Від 12 000 грн.
+			</select><br>
+			Оперативна память:<br>
+			<select name="RAM" size="5" multiple>
+			<option value="1">До 2 ГБ
+			<option value="2">2 - 4 ГБ
+			<option selected value="3">4 - 8 ГБ
+			<option value="4">8 - 16 ГБ
+			<option selected value="5">32 ГБ
+			</select>
+
+			<p><input type="reset" name="reset" value="Clear">
+			<input type="image" name="but_img" src="Enter.gif">
+			<input type="submit" name="options" value="Відправити">
+			</p>
+
+			<p><input type="file" name="load" size="30"></p>
+			
+			
+			<textarea cols="30" rows="5">Свої коментарі можете залишати тут.</textarea>
+
+		</form>
+	</body>
+</html>
